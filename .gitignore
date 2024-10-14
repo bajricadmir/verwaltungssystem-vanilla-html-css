@@ -1,0 +1,11 @@
+# Ignore .history files
+.history
+
+# Node modules (falls relevant)
+node_modules/
+
+# Log files
+*.log
+
+# Environment files
+.env
