@@ -1,0 +1,96 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --success-color-hover: #218838;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+
+  --font-size-base: 16px;
+  --font-family-base: "Arial", sans-serif;
+  --background-color: #f0f0f0;
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: var(--font-family-base);
+  line-height: 1.5;
+}
+
+body {
+  padding: 40px 80px 0px 80px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--dark-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.nav-item a {
+  color: var(--success-color);
+  transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: var(--success-color-hover);
+}
