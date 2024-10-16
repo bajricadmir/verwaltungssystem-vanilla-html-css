@@ -1,5 +1,5 @@
 :root {
-  --secondary-color: #6c757d;
+  --secondary-color: oklch(64.01% 0.1751 146.74);
   --success-color: #28a745;
   --success-color-hover: #218838;
   --dark-color: #343a40;
@@ -49,11 +49,6 @@ button {
   cursor: pointer;
   outline: none;
   transition: background-color 0.3s, color 0.3s;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
 }
 
 .navigation {
