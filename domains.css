@@ -54,21 +54,6 @@ button {
   cursor: pointer;
 }
 
-.popover-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.close-popover {
-  align-self: flex-end;
-  background-color: var(--success-color);
-  color: var(--background-color);
-  padding: calc(0.25 * var(--font-size-base)) calc(0.5 * var(--font-size-base));
-  border-radius: 50%;
-  cursor: pointer;
-  margin-bottom: var(--font-size-base);
-}
-
 .header-logo {
   width: calc(2 * var(--font-size-base));
   height: calc(2 * var(--font-size-base));
@@ -176,6 +161,21 @@ button {
 
 ::backdrop {
   backdrop-filter: blur(3px);
+}
+
+.popover-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.close-popover {
+  align-self: flex-end;
+  background-color: var(--success-color);
+  color: var(--background-color);
+  padding: calc(0.25 * var(--font-size-base)) calc(0.5 * var(--font-size-base));
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: var(--font-size-base);
 }
 
 @media (max-width: 800px) {
