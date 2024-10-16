@@ -156,7 +156,7 @@ a {
 
       th:last-child,
       td:last-child {
-        width: calc(12 * var(--font-size-base));
+        width: calc(13 * var(--font-size-base));
       }
     }
   }
@@ -183,9 +183,12 @@ a {
 
 .close-popover {
   align-self: flex-end;
-  background-color: var(--success-color);
-  color: var(--background-color);
+  background-color: var(--table-th-bgc);
+  color: var(--dark-color);
+  font-weight: 600;
   padding: calc(0.25 * var(--font-size-base)) calc(0.5 * var(--font-size-base));
+  border: none;
+  border: 1px solid var(--dark-color);
   border-radius: 50%;
   cursor: pointer;
   margin-bottom: var(--font-size-base);
