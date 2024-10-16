@@ -54,12 +54,19 @@ button {
   cursor: pointer;
 }
 
+.popover-content {
+  display: flex;
+  flex-direction: column;
+}
+
 .close-popover {
-  background-color: var(--dark-color);
-  color: var(--success-color);
+  align-self: flex-end;
+  background-color: var(--success-color);
+  color: var(--background-color);
   padding: calc(0.25 * var(--font-size-base)) calc(0.5 * var(--font-size-base));
   border-radius: 50%;
   cursor: pointer;
+  margin-bottom: var(--font-size-base);
 }
 
 .header-logo {
