@@ -39,12 +39,6 @@ a {
   color: inherit;
 }
 
-button {
-  all: unset;
-  display: inline-block;
-  cursor: pointer;
-}
-
 .flex-align-center {
   display: flex;
   align-items: center;
@@ -131,7 +125,7 @@ button {
         width: calc(5 * var(--font-size-base));
         border: 1px solid var(--table-border);
         padding: calc(0.5 * var(--font-size-base));
-        text-align: left;
+        text-align: center;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
